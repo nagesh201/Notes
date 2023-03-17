@@ -1,0 +1,55 @@
+Day14:
+login to aws and create 2 ec2 mumbai instance
+create one directory and create localrepo by 
+initiatin   git init
+touch myfile
+git status
+git add
+git commit -m "1st commitfrommumbai"
+git status
+git log
+git show <commit-id>
+git  remote add origin<centralrepo url>
+git push -u origin master(enter username and password)
+git push origin master(from local)
+==============
+same activity need to be done in singapore
+
+create one directory 
+in that directory initiate the git init 
+you need to fetch the data from mumbai
+git remote  add origin <github repo url>
+git pull -u origin master
+git log
+git show <commit id>
+now add some code in the file
+git status
+git add
+git commit -m "some mes"
+git status
+git log
+git push origin master
+===============
+to check latest commit id
+git log  -1
+git log  -2(it will show 2 commits recent)
+if u need all commit histroy in one line
+git log --oneline
+
+
+=========================
+git diff <filename>
+the below command used to check diff of the working dir and the last commit
+git diff HEAD <filename>
+
+to see the difference in file content between
+stagedcopy and thelast commit
+git diff --staged HEAD <filename>
+
+to see te difference in file content b/w specific commit and working directory copy
+git log --oneline
+
+---git branching
+
+
+git branch <branchname>
