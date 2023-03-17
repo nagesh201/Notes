@@ -49,6 +49,10 @@ git diff --staged HEAD <filename>
 to see te difference in file content b/w specific commit and working directory copy
 git log --oneline
 
+git diff <commit id>  filename
+
+to see the diff in filecontent b/wspecificcommit and staging area copy
+git diff --staged <commitid>
 ---git branching
 
 
